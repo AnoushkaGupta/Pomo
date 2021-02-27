@@ -7,8 +7,14 @@ class Banner extends Component {
       <section class="hero is-primary is-fullheight">
         <div class="hero-body">
           <div class="container has-text-centered">
-            <h1 class="title">Hello, Bulma!</h1>
-            <h2 class="subtitle">This is react app feat. Bulma</h2>
+          <div class="columns is-vcentered">
+  <div class="column is-6">
+    <p class="bd-notification is-primary">First column</p>
+  </div>
+  <div class="column">
+      
+  </div>
+</div>
           </div>
         </div>
       </section>

@@ -3,6 +3,9 @@ import logo from './logo.svg';
 import './App.css';
 import Banner from './components/Banner/Banner.jsx';
 import Navbar from './components/Navbar/Navbar.js';
+import Landing from './components/Landing/Landing.js';
+
+
 
 class App extends React.Component {
   render() {
@@ -12,10 +15,7 @@ class App extends React.Component {
          
         </header> */}
         <Navbar></Navbar>
-        <Banner>
-          
-        
-        </Banner>
+        <Landing></Landing>
       </div>
     );
   }
