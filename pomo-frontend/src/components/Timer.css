@@ -1,0 +1,156 @@
+/* Frame 1 */
+
+position: absolute;
+width: 947px;
+height: 884px;
+left: 542px;
+top: 84px;
+
+
+
+/* Ellipse 1 */
+
+position: absolute;
+width: 820px;
+height: 780px;
+left: 45px;
+top: 48px;
+
+background: #06D6A0;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+/* Ellipse 2 */
+
+position: absolute;
+width: 681px;
+height: 694px;
+left: 109px;
+top: 76px;
+
+background: #28C69D;
+border: 20px solid #4A7FD4;
+box-sizing: border-box;
+
+
+/* 25:00 */
+
+position: absolute;
+width: 448px;
+height: 304px;
+left: 251px;
+top: 280px;
+
+font-family: Covered By Your Grace;
+font-style: normal;
+font-weight: normal;
+font-size: 230px;
+line-height: 310px;
+
+color: #000000;
+
+
+
+/* Line 1 */
+
+position: absolute;
+width: 54px;
+height: 0px;
+left: 450px;
+top: 184px;
+
+border: 5px solid #000000;
+transform: rotate(-90deg);
+
+
+/* Line 4 */
+
+position: absolute;
+width: 54px;
+height: 0px;
+left: 450px;
+top: 731px;
+
+border: 5px solid #000000;
+transform: rotate(-90deg);
+
+
+/* Line 5 */
+
+position: absolute;
+width: 54px;
+height: 0px;
+left: 600px;
+top: 262.18px;
+
+border: 5px solid #000000;
+transform: rotate(-45deg);
+
+
+/* Line 6 */
+
+position: absolute;
+width: 54px;
+height: 0px;
+left: 212.91px;
+top: 223.91px;
+
+border: 5px solid #000000;
+transform: rotate(45deg);
+
+
+/* Line 7 */
+
+position: absolute;
+width: 54px;
+height: 0px;
+left: 251px;
+top: 641.18px;
+
+border: 5px solid #000000;
+transform: rotate(-45deg);
+
+
+/* Line 8 */
+
+position: absolute;
+width: 54px;
+height: 0px;
+left: 657.18px;
+top: 622.18px;
+
+border: 5px solid #000000;
+transform: rotate(-135deg);
+
+
+/* Line 2 */
+
+position: absolute;
+width: 54px;
+height: 0px;
+left: 672px;
+top: 442px;
+
+border: 5px solid #000000;
+
+
+/* Line 3 */
+
+position: absolute;
+width: 54px;
+height: 0px;
+left: 148px;
+top: 442px;
+
+border: 5px solid #000000;
+
+
+/* Ellipse 3 */
+
+position: absolute;
+width: 45px;
+height: 45px;
+left: 427px;
+top: 65px;
+
+background: #4A7FD4;
