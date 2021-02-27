@@ -21,15 +21,29 @@ var token = process.env.PARTICLE_TOKEN;
 
 particle
     .login({
-        username: process.env.Iot_Email,
-        password: process.env.Iot_Password,
+        username: process.env.PARTICLE_EMAIL,
+        password: process.env.PARTICLE_PASSWORD,
     })
     .then(
-        function (data) {},
+        function (data) {
+            console.log('API Login Sucess', data.body.access_token);
+        },
         function (err) {
             console.log('Could not log in.', err);
         }
     );
+/*
+var devicesPr = particle.listDevices({ auth: process.env.PARTICLE_TOKEN });
+devicesPr.then(
+    function (devices) {
+        console.log('Devices: ', devices);
+    },
+    function (err) {
+        console.log('List devices call failed: ', err);
+    }
+);
+*/
+
 /*
 function MongoDbUpdate(Data, collection) {
     MongoClient.connect(
@@ -54,6 +68,7 @@ function MongoDbUpdate(Data, collection) {
     );
 }
 */
+
 /*
 function MongoDbQuery(collection) {
     MongoClient.connect(
